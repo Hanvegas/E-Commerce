@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+.clip-custom {
+      clip-path: polygon(10% 0%, 90% 0%,
+                  100% 10%, 100% 10%,
+                  90% 100%, 10% 100%,
+                  0% 10%, 0% 10%);
+}
+
+.underline-custom {
+      text-decoration: none;
+}
+
+.underline-custom:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 3px;
+}
