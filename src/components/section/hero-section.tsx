@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import MaxWidthWrapper from '../MaxWidthWrapper'
-import { ShadowBackground } from '../ui/shadowBackground'
+import { ShadowBackground } from '../ui/shadow-background'
 import Image from 'next/image'
 
 type HeroSectionProps = {
