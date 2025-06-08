@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+      --color-primary-100: #e7ccff;
+      --color-primary-200: #cf99ff;
+      --color-primary-300: #b866ff;
+      --color-primary-400: #a032ff;
+      --color-primary-500: #8900FF;
+      --color-primary-600: #6d00cc;
+      --color-primary-700: #520099;
+      --color-primary-800: #360066;
+      --color-primary-900: #1b0033;
+}
+
 .clip-custom {
       clip-path: polygon(10% 0%, 90% 0%,
                   100% 10%, 100% 10%,

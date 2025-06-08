@@ -10,14 +10,16 @@ type HeroSectionProps = {
 
 export default function HeroSection({ imageSrc, children }: HeroSectionProps) {
       return (
-            <section className='relative flex justify-center overflow-hidden w-full h-[730px] sm:h-[96vh] rounded-4xl'>
-                  <div className='absolute inset-0'>
-                        <Image src={imageSrc} alt='image' fill />
+            <section className='p-2 sm:p-4'>
+                  <div className='relative flex justify-center overflow-hidden w-full h-[730px] sm:h-[96vh] rounded-4xl'>
+                        <div className='absolute inset-0'>
+                              <Image src={imageSrc} alt='image' fill />
+                        </div>
+                        <ShadowBackground directionTo={'full'} layer={1} />
+                        <MaxWidthWrapper className="flex items-center h-full">
+                              {children}
+                        </MaxWidthWrapper>
                   </div>
-                  <ShadowBackground directionTo={'full'} layer={1}/>
-                  <MaxWidthWrapper className="flex items-center h-full">
-                        {children}
-                  </MaxWidthWrapper>
             </section>
       )
 }
