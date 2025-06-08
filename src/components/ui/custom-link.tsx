@@ -8,7 +8,7 @@ const costumLinkVariants = cva(
       {
             variants: {
                   variant: {
-                        default: "hover:after:scale-x-100 after:transition-transform after:duration-300 after:ease-in-out after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[3px] after:bg-[#7E22CD] after:scale-x-0"
+                        default: "hover:after:scale-x-100 after:transition-transform after:duration-300 after:ease-in-out after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-full after:h-[3px] after:bg-primary-500 after:scale-x-0"
                   },
                   size: {
                         default: "text-xl"
