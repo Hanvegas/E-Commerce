@@ -1,3 +1,4 @@
+import CardItem from "@/components/CardItem";
 import CatalogSection from "@/components/section/catalog-section";
 import HeroSection from "@/components/section/hero-section";
 import { Button } from "@/components/ui/button";
@@ -51,10 +52,10 @@ export default function Home() {
       </HeroSection>
 
       <CatalogSection text="Best Seller" level={2}>
-        <div className="w-auto h-80 bg-primary-200 rounded-xl drop-shadow-xl drop-shadow-primary-700"></div>
-        <div className="w-auto h-80 bg-primary-200 rounded-xl drop-shadow-xl drop-shadow-primary-700"></div>
-        <div className="w-auto h-80 bg-primary-200 rounded-xl drop-shadow-xl drop-shadow-primary-700"></div>
-        <div className="w-auto h-80 bg-primary-200 rounded-xl drop-shadow-xl drop-shadow-primary-700"></div>
+        <CardItem title="Casual Shirt" price="150.000 IDR" imageSrc="/images/clothes/tshirt.png" />
+        <CardItem title="Embrioded Sweater" price="300.000 IDR" imageSrc="/images/clothes/hoodie.png" />
+        <CardItem title="Graveyard Shirt" price="100.000 IDR" imageSrc="/images/clothes/shirt.png" />
+        <CardItem title="Leather Jacket" price="450.000 IDR" imageSrc="/images/clothes/jacket.png" />
       </CatalogSection>
     </main>
   )
