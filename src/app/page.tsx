@@ -62,19 +62,19 @@ export default function Home() {
 
       <BentoSection>
         <BentoBox col={3} row={12} rounded="xl" className="relative">
-          <Image src="/images/fashion1.jpg" alt="image" fill className="object-cover rounded-xl" />
+          <Image src="/images/artists/fashion1.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
         <BentoBox col={6} row={4} rounded="xl" className="relative">
-          <Image src="/images/fashion2.jpg" alt="image" fill className="object-cover rounded-xl" />
+          <Image src="/images/artists/fashion2.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
         <BentoBox col={3} row={12} rounded="xl" className="relative">
-          <Image src="/images/fashion3.jpg" alt="image" fill className="object-cover rounded-xl" />
+          <Image src="/images/artists/fashion3.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
         <BentoBox col={3} row={8} rounded="xl" className="relative">
-          <Image src="/images/fashion4.jpg" alt="image" fill className="object-cover rounded-xl" />
+          <Image src="/images/artists/fashion4.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
         <BentoBox col={3} row={8} rounded="xl" className="relative">
-          <Image src="/images/fashion5.jpg" alt="image" fill className="object-cover rounded-xl" />
+          <Image src="/images/artists/fashion5.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
       </BentoSection>
     </main>
