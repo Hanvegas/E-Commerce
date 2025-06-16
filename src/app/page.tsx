@@ -1,6 +1,8 @@
 import CardItem from "@/components/CardItem";
+import BentoSection from "@/components/section/bento-section";
 import CatalogSection from "@/components/section/catalog-section";
 import HeroSection from "@/components/section/hero-section";
+import { BentoBox } from "@/components/ui/bento-box";
 import { Button } from "@/components/ui/button";
 import { Heading } from "@/components/ui/heading";
 import { Logo } from "@/components/ui/logo";
@@ -57,6 +59,24 @@ export default function Home() {
         <CardItem title="Graveyard Shirt" price="100.000 IDR" imageSrc="/images/clothes/shirt.png" />
         <CardItem title="Leather Jacket" price="450.000 IDR" imageSrc="/images/clothes/jacket.png" />
       </CatalogSection>
+
+      <BentoSection>
+        <BentoBox col={3} row={12} rounded="xl" className="relative">
+          <Image src="/images/fashion1.jpg" alt="image" fill className="object-cover rounded-xl" />
+        </BentoBox>
+        <BentoBox col={6} row={4} rounded="xl" className="relative">
+          <Image src="/images/fashion2.jpg" alt="image" fill className="object-cover rounded-xl" />
+        </BentoBox>
+        <BentoBox col={3} row={12} rounded="xl" className="relative">
+          <Image src="/images/fashion3.jpg" alt="image" fill className="object-cover rounded-xl" />
+        </BentoBox>
+        <BentoBox col={3} row={8} rounded="xl" className="relative">
+          <Image src="/images/fashion4.jpg" alt="image" fill className="object-cover rounded-xl" />
+        </BentoBox>
+        <BentoBox col={3} row={8} rounded="xl" className="relative">
+          <Image src="/images/fashion5.jpg" alt="image" fill className="object-cover rounded-xl" />
+        </BentoBox>
+      </BentoSection>
     </main>
   )
 }
