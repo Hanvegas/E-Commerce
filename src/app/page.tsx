@@ -1,6 +1,8 @@
+import CardCategory from "@/components/CardCategory";
 import CardItem from "@/components/CardItem";
 import BentoSection from "@/components/section/bento-section";
 import CatalogSection from "@/components/section/catalog-section";
+import CategorySection from "@/components/section/category-section";
 import HeroSection from "@/components/section/hero-section";
 import { BentoBox } from "@/components/ui/bento-box";
 import { Button } from "@/components/ui/button";
@@ -77,6 +79,11 @@ export default function Home() {
           <Image src="/images/artists/fashion5.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
       </BentoSection>
+
+      <CategorySection>
+        <CardCategory href='/man' image='/images/categories/man.jpeg' text='/man' rounded='rounded-l-lg' />
+        <CardCategory href='/woman' image='/images/categories/woman.jpeg' text='/woman' rounded='rounded-r-lg' />
+      </CategorySection>
     </main>
   )
 }
