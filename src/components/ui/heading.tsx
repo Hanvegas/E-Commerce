@@ -20,7 +20,7 @@ const headingVariants = cva(
                         black: "text-black"
                   },
                   size: {
-                        default: "text-2xl md:text-5xl"
+                        default: "text-2xl md:text-6xl"
                   }
             },
             defaultVariants: {
