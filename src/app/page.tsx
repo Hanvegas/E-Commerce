@@ -61,6 +61,11 @@ export default function Home() {
         <CardItem title="Graveyard Shirt" price="100.000 IDR" imageSrc="/images/clothes/shirt.png" />
         <CardItem title="Leather Jacket" price="450.000 IDR" imageSrc="/images/clothes/jacket.png" />
       </CatalogSection>
+      
+      <CategorySection>
+        <CardCategory href='/man' image='/images/categories/man.jpeg' text='/man' rounded='rounded-l-lg' />
+        <CardCategory href='/woman' image='/images/categories/woman.jpeg' text='/woman' rounded='rounded-r-lg' />
+      </CategorySection>
 
       <BentoSection>
         <BentoBox col={3} row={12} rounded="xl" className="relative">
@@ -79,10 +84,6 @@ export default function Home() {
           <Image src="/images/artists/fashion5.jpg" alt="image" fill className="object-cover rounded-xl" />
         </BentoBox>
       </BentoSection>
-      <CategorySection>
-        <CardCategory href='/man' image='/images/categories/man.jpeg' text='/man' rounded='rounded-l-lg' />
-        <CardCategory href='/woman' image='/images/categories/woman.jpeg' text='/woman' rounded='rounded-r-lg' />
-      </CategorySection>
       
       <CatalogSection text="Latest Products" level={3}>
         <CardItem title="Casual Shirt" price="150.000 IDR" imageSrc="/images/clothes/tshirt.png" />
