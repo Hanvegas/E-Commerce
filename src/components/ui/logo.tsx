@@ -8,7 +8,8 @@ const logoContainerVariant = cva(
       {
             variants: {
                   justify: {
-                        center: "clip-custom absolute -top-2 left-1/2 -translate-x-1/2 min-w-30 md: min-w-80 h-10 md:h-17"
+                        center: "clip-custom absolute -top-2 left-1/2 -translate-x-1/2 min-w-30 md: min-w-80 h-10 md:h-17",
+                        relative: "relative"
                   },
                   layer: {
                         m5: "-z-50",
@@ -41,13 +42,23 @@ const logoTextVariant = cva(
             variants: {
                   size: {
                         default: "text-2xl md:text-4xl",
-                        small: "text-xl md:text-3xl"
+                        small: "text-xl md:text-3xl",
+                        large: "text-6xl"
                   },
                   margin: {
                         default: "mt-1 md:mt-4"
                   },
                   colorText: {
-                        default: "text-white",
+                        default: "text-primary-500",
+                        light1: "text-primary-100",
+                        light2: "text-primary-200",
+                        light3: "text-primary-300",
+                        light4: "text-primary-400",
+                        dark1: "text-primary-600",
+                        dark2: "text-primary-700",
+                        dark3: "text-primary-800",
+                        dark4: "text-primary-900",
+                        white: "text-white",
                         black: "text-black"
                   }
             },
