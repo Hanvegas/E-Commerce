@@ -8,14 +8,14 @@ const headingVariants = cva(
             variants: {
                   color: {
                         default: "text-primary-500",
-                        light1: "text-primary-400",
-                        light2: "text-primary-300",
-                        light3: "text-primary-200",
-                        light4: "text-primary-100",
-                        dark1: "text-primary-900",
-                        dark2: "text-primary-800",
-                        dark3: "text-primary-700",
-                        dark4: "text-primary-600",
+                        light1: "text-primary-100",
+                        light2: "text-primary-200",
+                        light3: "text-primary-300",
+                        light4: "text-primary-400",
+                        dark1: "text-primary-600",
+                        dark2: "text-primary-700",
+                        dark3: "text-primary-800",
+                        dark4: "text-primary-900",
                         white: "text-white",
                         black: "text-black"
                   },

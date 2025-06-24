@@ -26,7 +26,7 @@ export default function Home() {
           />
         </div>
         <Link href="/">
-          <Logo layer={5} />
+          <Logo layer={5} colorText="white" />
         </Link>
         <div className='flex justify-between items-center w-full z-30 mt-25'>
           <div className='w-auto mt-30'>
@@ -97,10 +97,7 @@ export default function Home() {
         <CardItem title="Leather Jacket" price="450.000 IDR" imageSrc="/images/clothes/jacket.png" />
       </CatalogSection>
 
-      <ContactSection>
-        
-      </ContactSection>
-
+      <ContactSection />
     </main>
   )
 }
