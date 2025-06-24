@@ -3,6 +3,7 @@ import CardItem from "@/components/CardItem";
 import BentoSection from "@/components/section/bento-section";
 import CatalogSection from "@/components/section/catalog-section";
 import CategorySection from "@/components/section/category-section";
+import ContactSection from "@/components/section/contact-section";
 import HeroSection from "@/components/section/hero-section";
 import { BentoBox } from "@/components/ui/bento-box";
 import { Button } from "@/components/ui/button";
@@ -96,6 +97,9 @@ export default function Home() {
         <CardItem title="Leather Jacket" price="450.000 IDR" imageSrc="/images/clothes/jacket.png" />
       </CatalogSection>
 
+      <ContactSection>
+        
+      </ContactSection>
 
     </main>
   )
