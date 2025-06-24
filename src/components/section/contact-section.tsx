@@ -34,7 +34,7 @@ export default function ContactSection() {
                               </div>
                         </div>
                         <div className='relative w-[40%] h-140'>
-                              <Image src="/images/categories/man.jpeg" alt='' fill className='object-cover' />
+                              <Image src="/images/shirt-store.jpg" alt='' fill className='object-cover rounded-sm' />
                         </div>
                   </MaxWidthWrapper>
             </section>
