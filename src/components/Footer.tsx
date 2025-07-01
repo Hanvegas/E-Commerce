@@ -7,8 +7,8 @@ export default function Footer() {
             <footer className='relative flex justify-between items-center w-full h-auto py-20 px-30'>
                   <div className='absolute top-0 left-1/2 -translate-x-1/2 border-t-2 border-white w-[90%]'></div>
                   <div className=' text-white'>
-                        <Logo justify="relative" size="large" colorText="light4" />
-                        <span className='block text-xl font-bold mt-4'>&copy; {new Date().getFullYear()}</span>
+                        <Logo justify="relative" size="large" colorText="white" />
+                        <span className='mt-4 block text-5xl font-bold text-primary-300'>&copy; {new Date().getFullYear()}</span>
                   </div>
                   <div className='flex gap-50 text-white'>
                         <div>
