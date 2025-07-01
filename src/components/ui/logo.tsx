@@ -8,7 +8,7 @@ const logoContainerVariant = cva(
       {
             variants: {
                   justify: {
-                        center: "clip-custom absolute -top-2 left-1/2 -translate-x-1/2 min-w-30 md: min-w-80 h-10 md:h-17",
+                        center: "clip-custom absolute -top-2 left-1/2 -translate-x-1/2 min-w-30 md:min-w-80 h-10 md:h-20",
                         relative: "relative"
                   },
                   layer: {
@@ -43,7 +43,7 @@ const logoTextVariant = cva(
                   size: {
                         default: "text-2xl md:text-4xl",
                         small: "text-xl md:text-3xl",
-                        large: "text-6xl"
+                        large: "text-5xl"
                   },
                   margin: {
                         default: "mt-1 md:mt-4"
