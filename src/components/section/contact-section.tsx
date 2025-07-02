@@ -13,7 +13,7 @@ export default function ContactSection() {
                               <div className='relative w-[70%]'>
                                     <form>
                                           <label htmlFor="contact-input" className="sr-only">Ask a question</label>
-                                          <input id="contact-input" type="text" className='text-white w-full border-b-2 border-white focus:outline-none pb-3' placeholder='Ask a question..' />
+                                          <input id="contact-input" type="text" className="text-white w-full border-b-2 border-white focus:outline-none pb-3" placeholder="Ask a question.." />
                                           <button type="submit" className='cursor-pointer'>
                                                 <svg
                                                       xmlns="http://www.w3.org/2000/svg"
