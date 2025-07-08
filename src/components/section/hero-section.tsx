@@ -21,9 +21,12 @@ export default function HeroSection() {
                         {/* Logo */}
                         <Link href="/">
                               <Logo layer={5}
+                                    margin="mt3"
+                                    variant="center"
                                     size="large"
                                     colorText="white"
                                     classNameText='drop-shadow-xl drop-shadow-primary-300'
+                                    color="dark"
                               />
                         </Link>
 
