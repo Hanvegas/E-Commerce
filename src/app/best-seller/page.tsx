@@ -8,7 +8,7 @@ export default function BestSeller() {
             <main>
                   <SpecificHeroSection imageSrc='/images/artists/fashion6.png' title='Choose Your Style in New Era' scrollTo='best-seller' />
 
-                  <CatalogSection text='Best Seller' level={1} id='best-seller'>
+                  <CatalogSection text='Best Seller' level={2} id='best-seller'>
                         <CardItem title="Casual Shirt" price="150.000 IDR" imageSrc="/images/clothes/tshirt.png" />
                         <CardItem title="Casual Shirt" price="150.000 IDR" imageSrc="/images/clothes/tshirt.png" />
                         <CardItem title="Casual Shirt" price="150.000 IDR" imageSrc="/images/clothes/tshirt.png" />
