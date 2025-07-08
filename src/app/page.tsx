@@ -21,8 +21,8 @@ export default function Home() {
       </CatalogSection>
 
       <CategorySection>
-        <CardCategory href='/man' image='/images/categories/man.jpeg' text='/man' rounded='rounded-l-lg' />
-        <CardCategory href='/woman' image='/images/categories/woman.jpeg' text='/woman' rounded='rounded-r-lg' />
+        <CardCategory href='/product/man' image='/images/categories/man.jpeg' text='/man' rounded='rounded-l-lg' />
+        <CardCategory href='/product/woman' image='/images/categories/woman.jpeg' text='/woman' rounded='rounded-r-lg' />
       </CategorySection>
 
       <BentoSection>
