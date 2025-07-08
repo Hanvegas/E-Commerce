@@ -12,6 +12,10 @@
       --color-primary-900: #1b0033;
 }
 
+html {
+      scroll-behavior: smooth;
+}
+
 .clip-custom {
       clip-path: polygon(10% 0%, 90% 0%,
                   100% 10%, 100% 10%,
