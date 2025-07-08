@@ -42,7 +42,7 @@ export function Navbar() {
 
 export function MainNavbar() {
       return (
-            <header className='sticky top-4 z-50'>
+            <header className='fixed w-full top-5 z-50'>
                   <MaxWidthWrapper>
                         <nav className='flex justify-between py-2 px-8 bg-slate-100 rounded-2xl'>
                               <ul className='flex items-center gap-12 py-4 font-semibold text-primary-700'>
