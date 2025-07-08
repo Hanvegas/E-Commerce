@@ -47,8 +47,8 @@ export function MainNavbar() {
                         <nav className='flex justify-between py-2 px-8 bg-slate-100 rounded-2xl'>
                               <ul className='flex items-center gap-12 py-4 font-semibold text-primary-700'>
                                     <List><CustomLink href='/'><Logo colorText="dark2" /></CustomLink></List>
-                                    <List><CustomLink hoverVariant="hoverCenter" colorUnderline="primaryDark2" text='Man' href='/pruduct/man' /></List>
-                                    <List><CustomLink hoverVariant="hoverCenter" colorUnderline="primaryDark2" text='Woman' href='/pruduct/woman' /></List>
+                                    <List><CustomLink hoverVariant="hoverCenter" colorUnderline="primaryDark2" text='Man' href='/product/man' /></List>
+                                    <List><CustomLink hoverVariant="hoverCenter" colorUnderline="primaryDark2" text='Woman' href='/product/woman' /></List>
                                     <List><CustomLink hoverVariant="hoverCenter" colorUnderline="primaryDark2" text='Best Seller' href='/best-seller' /></List>
                               </ul>
                               <ul className='flex items-center gap-12 py-4 font-semibold text-primary-700'>
