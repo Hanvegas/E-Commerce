@@ -4,12 +4,13 @@ import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
 
 const logoContainerVariant = cva(
-      "flex justify-center",
+      "",
       {
             variants: {
-                  justify: {
-                        center: "clip-custom absolute -top-2 left-1/2 -translate-x-1/2 min-w-30 md:min-w-80 h-10 md:h-20",
-                        relative: "relative"
+                  variant: {
+                        center: "clip-custom flex absolute -top-2 left-1/2 -translate-x-1/2 justify-center min-w-30 md:min-w-80 h-10 md:h-20",
+                        relative: "relative",
+                        static: "static"
                   },
                   layer: {
                         m5: "-z-50",
@@ -24,12 +25,13 @@ const logoContainerVariant = cva(
                         5: "z-50",
                   },
                   color: {
-                        default: "bg-slate-900",
-                        white: "bg-white"
+                        default: "bg-transparent",
+                        white: "bg-white",
+                        dark: "bg-slate-900"
                   }
             },
             defaultVariants: {
-                  justify: "center",
+                  variant: "static",
                   layer: 1,
                   color: "default"
             }
@@ -46,7 +48,8 @@ const logoTextVariant = cva(
                         large: "text-5xl"
                   },
                   margin: {
-                        default: "mt-1 md:mt-4"
+                        default: "m-0",
+                        mt3: "mt-1 md:mt-3"
                   },
                   colorText: {
                         default: "text-primary-500",
@@ -79,10 +82,10 @@ interface LogoProps extends
       text?: string
 }
 
-export const Logo = ({ classNameContainer, classNameText, justify, size, margin, text = "VEGAS", asChild = false, layer, color, colorText }: LogoProps) => {
+export const Logo = ({ classNameContainer, classNameText, variant, size, margin, text = "VEGAS", asChild = false, layer, color, colorText }: LogoProps) => {
       const Comp = asChild ? Slot : "div"
       return (
-            <Comp className={cn(logoContainerVariant({ justify, layer, color }), classNameContainer)}>
+            <Comp className={cn(logoContainerVariant({ variant, layer, color }), classNameContainer)}>
                   <span className={cn(logoTextVariant({ size, margin, colorText }), classNameText)}>{text}</span>
             </Comp>
       )
