@@ -12,8 +12,8 @@ export default function ContactSection() {
                               <p className='text-white text-xl w-[70%] my-10 leading-10'>Got questions or need assistance? Our team is here to help you navigate the future of fashion. Reach out to us anytime—let’s connect and gear you up for what’s next!</p>
                               <div className='relative w-[70%]'>
                                     <form>
-                                          <label htmlFor="contact-input" className="sr-only">Ask a question</label>
-                                          <input id="contact-input" type="text" className="text-white w-full border-b-2 border-white focus:outline-none pb-3" placeholder="Ask a question.." />
+                                          <label htmlFor="contactInput" className="sr-only">Ask a question</label>
+                                          <input id="contactInput" type="text" className="text-white w-full border-b-2 border-white focus:outline-none pb-3" placeholder="Ask a question.." />
                                           <button type="submit" className='cursor-pointer'>
                                                 <svg
                                                       xmlns="http://www.w3.org/2000/svg"
